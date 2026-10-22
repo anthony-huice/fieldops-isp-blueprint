@@ -1,0 +1,21 @@
+{
+  "name": "fieldops-isp-blueprint",
+  "version": "1.0.0",
+  "description": "Multi-Tenant Field Operations & Serialized WMS Blueprint for FTTH ISPs (React Native, Expo SDK, TypeScript Strict, O(1) PostgreSQL RLS)",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "test": "node --test dist/tests/fieldops.test.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "author": "Anthony Yariff Huice Martínez",
+  "license": "MIT"
+}
